@@ -28,7 +28,10 @@ return {
   { import = "astrocommunity.pack.cpp" },
 
   { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.python-ruff" },
+
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.svelte" },
 
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
