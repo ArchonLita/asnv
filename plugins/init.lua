@@ -1,5 +1,6 @@
 return {
   "AstroNvim/astrocommunity",
+
   { import = "astrocommunity.colorscheme.catppuccin" },
   {
     "catppuccin",
@@ -8,6 +9,30 @@ return {
       transparent_background = true,
     },
   },
+
+  { import = "astrocommunity.colorscheme.rose-pine" },
+  {
+    "rose-pine",
+    opts = {
+      variant = "dawn",
+      styles = {
+        transparency = true,
+      },
+      highlight_groups = {
+        NeoTreeTabActive = { fg = "foam" },
+      },
+    },
+  },
+
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  {
+    "tokyonight.nvim",
+    opts = {
+      style = "day",
+      transparent = true,
+    },
+  },
+
   {
     "nvim-notify",
     opts = {
@@ -20,6 +45,7 @@ return {
       require("neo-tree").setup(opts)
       vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorActive", {})
       vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorInactive", {})
+      vim.api.nvim_set_hl(0, "NeoTreeTabInactive", {})
     end,
   },
 
