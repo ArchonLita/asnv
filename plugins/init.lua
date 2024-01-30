@@ -54,6 +54,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
 
   { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.python-ruff" },
 
   { import = "astrocommunity.pack.typescript" },
